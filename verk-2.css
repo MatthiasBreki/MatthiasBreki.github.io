@@ -1,0 +1,24 @@
+.box1{border: green solid 1px;}
+.box2{color: red; border: green solid 1px;}
+div{padding: 15px ;
+margin: 5px;
+border: solid red;}
+.box3{border: dashed darkblue;color: darkblue;border-width: medium;}
+
+.listi1 li{display: list-item block;
+        padding: 1em;
+        margin: 1em;
+        border: 3px dashed green}
+.listi2 li{ color: red;  display: inline;padding: 1em;margin: 1em;border: 3px dashed blue; }
+.tab{margin: 2.5em;}
+.listi3 li{display: inline-block; padding: 1em;margin: 1em;border: 3px dashed red;}
+
+.vinstri{border: 1px solid red;
+}
+.hægri{border: 1px solid red;
+}
+
+.ell{font-size: 32px;}
+.flexbox{display: flex ;justify-content: left;width: 100%;}
+.group{border: 1px solid red; box-sizing: border-box;}
+img{float:right}
