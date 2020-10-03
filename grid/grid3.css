@@ -1,0 +1,18 @@
+header, nav, aside, article, main, footer{border: 1px dotted red;}
+
+
+body{ display: grid;grid-template-areas: 
+    "h h h n n"
+    "v a hae hae hae"
+    "f f f f f"
+    ;}
+
+    
+.valstika{display: grid ;
+    grid-area: n; 
+    grid-template-rows: 1fr 1fr 1fr 1fr;}
+.vinstri{grid-area: v;}
+.adal{grid-area: a;}
+.haegri{grid-area: hae;}
+.fotur{grid-area: f;}
+.haus{grid-area: h;}
