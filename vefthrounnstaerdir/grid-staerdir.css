@@ -1,0 +1,56 @@
+header{font-family:fantasy ;font-size: xx-large; border: 4px solid red; background-color: orange;}
+footer{border: 4px solid red; background-color: green}
+main{border: 4px solid red; background-color: lightblue;}
+article{border: 4px solid red; background-color: yellow;}
+aside{border: 4px solid red; background-color: yellow;}
+nav{font-size: large;justify-content: center;text-align: center; background-color: black;color:green; border: 4px solid red;}
+
+
+
+
+    
+
+body{ display: grid;grid-template-areas: 
+    "h h h h "
+    "a a a a "
+    "hae hae hae hae"
+    "v v v v"
+    "f f f f "
+    "n n n n "
+    
+    ;}  
+
+    
+@media screen and (min-width: 768px){
+    body{ display: grid;grid-template-areas: 
+    "n n n n"
+    "h h h h"
+    "v v a a"
+    "hae hae a a"
+    "f f f f"
+    ;}
+}
+
+@media screen and (min-width: 960px){
+    body{ display: grid;grid-template-areas: 
+    
+    "n n n n "
+    "h h h h "
+    "v a a  hae"
+    "f f f f "
+    ;}
+}
+
+
+.vinstri{grid-area: v;}
+.adal{grid-area: a;}
+.haegri{grid-area: hae;}
+.fotur{grid-area: f;}
+.haus{grid-area: h;}
+.valstika{grid-area: n; 
+    height: 3em;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    align-items: center;
+    justify-items: center;
+}
+
