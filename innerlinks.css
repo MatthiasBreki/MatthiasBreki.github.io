@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@1,300&display=swap');
+
+
+
+body{background:linear-gradient(pink,hotpink);
+font-family: Ubuntu;
+margin: 0%;
+text-align: center;}
+
+.midja{background:linear-gradient(green,greenyellow);;
+padding: 1em;}
+
+.adal{width: 70%;
+margin: 0 auto;}
+
+.tveirdalkar{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.pila{position: fixed;
+right: 30px;
+bottom: 30px;
+font-size: 2.5em;
+background-color: white;
+height:50px;
+width: 50px;
+border-radius: 50%;
+text-align: center;
+align-items: center;
+padding: 30px;
+}
+.klasi1{text-align: right;
+top: 0;
+right: 1em;}
+
+.innermenu{color: mediumturquoise;
+display: grid;
+grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+background-color: mediumturquoise;
+padding: 1em;}
+.midja2{background:linear-gradient(green,greenyellow);;
+    padding: 1em;
+}
+footer{display: grid;
+grid-template-columns: 1fr 1fr 1fr 1fr;}
+
+
