@@ -1,0 +1,18 @@
+h1 {color: pink;} 
+h1 {text-align: center;}
+body{background: green;}
+h2 {color: orange;}
+body{border: 4px dotted royalblue; padding: 20px; margin:20px}
+.skaletur{font: italic;}
+.klasi1{
+color: blueviolet;
+}
+a:visited{color: blue
+}
+a:hover{color: crimson;}
+a:active{color: hotpink;}
+.listi1{color: whitesmoke;}
+.elvis{color: turquoise; text-align: center;}
+.elvis2{color: red}
+.elvis3{color: gold;}
+pre{font-size: x-large;}
