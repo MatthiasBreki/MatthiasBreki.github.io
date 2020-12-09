@@ -1,0 +1,72 @@
+body{background-color:#fced0a ;}
+header{font-family:fantasy ;font-size: xx-large; border: 4px solid #6fbfe3; background-color: #fced0a;}
+footer{border: 4px solid #6fbfe3; background-color: #fced0a}
+main{border: 4px solid #6fbfe3; background-color: #fced0a; font-size: x-small;}
+article{border: 4px solid #6fbfe3; background-color: #fced0a;}
+aside{border: 4px solid #6fbfe3; background-color: #fced0a;}
+nav{font-size: large;justify-content: center;text-align: center; background-color: #fced0a;color:#6fbfe3; border: 4px solid #6fbfe3;}
+
+
+
+
+body{ display: grid;grid-template-areas: 
+    "h h  "
+    "a a  "
+    "hae hae "
+    "v v "
+    "f f  "
+    "n n "
+    
+    ;}    
+@media screen and (min-width: 30em){
+    body{ display: grid;grid-template-areas: 
+    "h h h h "
+    "a a a a "
+    "hae hae hae hae"
+    "v v v v"
+    "f f f f "
+    "n n n n "
+    
+    ;}  
+
+    
+@media screen and (min-width: 37em){
+    body{ display: grid;grid-template-areas: 
+    "n n n n"
+    "h h h h"
+    "v v a a"
+    "hae hae a a"
+    "f f f f"
+    ;}
+}
+
+@media screen and (min-width: 48em){
+    body{ display: grid;grid-template-areas: 
+    
+    "n n n n "
+    "h h h h "
+    "v a a  hae"
+    "f f f f "
+    ;}
+}
+@media screen and (min-width: 60em){
+    body{ display: grid;grid-template-areas: 
+    
+    "n n n n "
+    "h h h h "
+    "v a a  hae"
+    "f f f f "
+    ;}
+}
+
+.vinstri{grid-area: v;}
+.adal{grid-area: a;}
+.haegri{grid-area: hae;}
+.fotur{grid-area: f;}
+.haus{grid-area: h;}
+.valstika{grid-area: n; 
+    height: 3em;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    align-items: center;
+    justify-items: center;
+}
